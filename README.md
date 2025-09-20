@@ -2,6 +2,16 @@
 
 A dynamic, responsive dashboard application built with React and Redux that allows users to manage security widgets across different categories. Users can add, remove, and search widgets dynamically with real-time charts and visual icons.
 
+## 🌐 Live Demo
+
+**🚀 [View Live Application](https://dashboard-dlify0jt6-ad0804s-projects.vercel.app)**
+
+The application is deployed on Vercel and fully functional. You can:
+- ✅ Add and remove widgets dynamically
+- ✅ Search across all widgets and categories  
+- ✅ View interactive charts and data visualizations
+- ✅ Experience responsive design on any device
+
 ## 🚀 Features
 
 - **Dynamic Widget Management**: Add and remove widgets from different categories
@@ -255,7 +265,47 @@ Builds the app for production to the `build` folder
    - Ensure all dependencies are installed
    - Verify Node.js version (16+)
 
-## 📄 Assignment Requirements Met
+## � Deployment
+
+### Live Application
+The application is successfully deployed on **Vercel** and accessible at:
+**https://dashboard-dlify0jt6-ad0804s-projects.vercel.app**
+
+### Deployment Details
+- **Platform**: Vercel
+- **Build Command**: `npm run build`
+- **Output Directory**: `build`
+- **Node.js Version**: 18.x
+- **Deployment Type**: Static Site Generation (SSG)
+- **Auto-deployment**: Enabled via GitHub integration
+
+### Deploying Your Own Copy
+
+1. **Fork this repository** on GitHub
+
+2. **Import to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import your forked repository
+   - Vercel will auto-detect it as a React app
+
+3. **Configure settings** (auto-detected):
+   - Framework Preset: Create React App
+   - Build Command: `npm run build`
+   - Output Directory: `build`
+   - Install Command: `npm install`
+
+4. **Deploy**: Click "Deploy" and your app will be live!
+
+### Alternative Deployment Platforms
+
+The application can also be deployed on:
+- **Netlify**: Drag and drop the `build` folder
+- **GitHub Pages**: Use `npm run build` and deploy the build folder
+- **Firebase Hosting**: `firebase deploy` after building
+- **AWS S3 + CloudFront**: Upload build folder to S3 bucket
+
+## �📄 Assignment Requirements Met
 
 ✅ **Dashboard Page Creation**: Complete dashboard with categories and widgets  
 ✅ **Dynamic JSON Structure**: Flexible data structure for categories and widgets  
@@ -280,10 +330,17 @@ This project was created for the Accuknox assignment. For any questions or impro
 
 **Developer**: Ayush Dhanesha  
 **GitHub**: [https://github.com/Ayush-Dhanesha](https://github.com/Ayush-Dhanesha)  
-**Repository**: [Accuknox_Assignment_Frontend](https://github.com/Ayush-Dhanesha/Accuknox_Assignment_Frontend)
+**Repository**: [Accuknox_Assignment_Frontend](https://github.com/Ayush-Dhanesha/Accuknox_Assignment_Frontend)  
+**Live Demo**: [https://dashboard-dlify0jt6-ad0804s-projects.vercel.app](https://dashboard-dlify0jt6-ad0804s-projects.vercel.app)
+
+## 🔗 Quick Links
+
+- 🌐 **[Live Application](https://dashboard-dlify0jt6-ad0804s-projects.vercel.app)** - Try the dashboard now!
+- 📱 **[GitHub Repository](https://github.com/Ayush-Dhanesha/Accuknox_Assignment_Frontend)** - View source code
+- ⚡ **[Vercel Dashboard](https://vercel.com/ad0804s-projects/dashboard-app)** - Deployment management
 
 ---
 
 **Happy Coding! 🎉**
 
-*This dashboard application demonstrates modern React development practices with Redux state management, interactive charts, and responsive design principles.*
+*This dashboard application demonstrates modern React development practices with Redux state management, interactive charts, and responsive design principles. The live demo showcases all features including dynamic widget management, search functionality, and real-time data visualization.*
